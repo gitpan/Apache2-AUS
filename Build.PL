@@ -12,14 +12,14 @@ our %opts = (
     requires            =>  {
         'DBIx::Migration::Directories'  =>      '0.01',
         'mod_perl2'                     =>      '2.000001',
-        'Schema::RDBMS::AUS'            =>      '0.02',
+        'Schema::RDBMS::AUS'            =>      '0.03',
         'Apache2::Request'              =>      '2.06',
     },
     build_requires      =>  {
         'Module::Build'                 =>      '0.27_03',
         'Apache::Test'                  =>      '0',
         'Apache::TestMB'                =>      '0',
-        'Schema::RDBMS::AUS'            =>      '0.02',
+        'Schema::RDBMS::AUS'            =>      '0.03',
         'DBIx::Migration::Directories'  =>      '0.05',
         'mod_perl2'                     =>      '2.000001',
         'DBIx::Transaction'             =>      '0.007',

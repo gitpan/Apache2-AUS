@@ -16,7 +16,7 @@ use Apache2::Access;
 use Apache2::Log;
 use Carp qw(verbose);
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 return 1;
 
